@@ -1,0 +1,9 @@
+
+.draw-box {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 1%;
+    height: 100%;
+    background-color:wheat;
+    padding-bottom: 100%;
+  }

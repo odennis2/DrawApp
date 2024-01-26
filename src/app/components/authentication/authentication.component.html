@@ -1,0 +1,65 @@
+<div class="header">
+  <h1>LibraryDrawer</h1>
+</div>
+<app-draw></app-draw>
+<form
+  class="form"
+  [formGroup]="loginForm"
+  novalidate
+  (ngSubmit)="onLogin(loginForm)"
+>
+  <mat-card-content>
+    <div class="col">
+      <mat-form-field class="full-width">
+        <mat-label>E-mail</mat-label>
+        <input matInput placeholder="E-mail" formControlName="email" />
+      </mat-form-field>
+      <mat-error
+        *ngIf="
+          loginForm.get('email').hasError('required') &&
+          loginForm.get('email').touched
+        "
+      >
+        Email is <strong>required</strong>
+      </mat-error>
+    </div>
+    <div class="col">
+      <mat-form-field class="full-width">
+        <mat-label>Password</mat-label>
+        <input
+          type="password"
+          matInput
+          placeholder="Password"
+          formControlName="password"
+        />
+      </mat-form-field>
+      <mat-error
+        *ngIf="
+          loginForm.get('password').hasError('required') &&
+          loginForm.get('password').touched
+        "
+      >
+        Password is <strong>required</strong>
+      </mat-error>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button
+      class="mat-button"
+      mat-raised-button
+      color="mat-button"
+      type="submit"
+    >
+      Login
+    </button>
+    <button
+      class="mat-button"
+      mat-raised-button
+      color="mat-button"
+      (click)="onSignup(loginForm)"
+      type="button"
+    >
+      Signup
+    </button>
+  </mat-card-actions>
+</form>

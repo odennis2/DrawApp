@@ -1,0 +1,166 @@
+{
+    "cars": {
+      "diesel": [
+        {
+          "Make & Model": "Chevrolet Silverado",
+          "Year": 2023,
+          "Class": "PL",
+          "Eng/ Cyl": "3.0/6",
+          "Trans": "A10",
+          "Fuel": "Diesel",
+          "Consumption": 10.0,
+          "$/yr": 2392,
+          "CO2 (g/km)": 247
+        },
+        {
+          "Make & Model": "GMC Sierra",
+          "Year": 2023,
+          "Class": "PL",
+          "Eng/ Cyl": "3.0/6",
+          "Trans": "A10",
+          "Fuel": "Diesel",
+          "Consumption": 10.0,
+          "$/yr": 2392,
+          "CO2 (g/km)": 247
+        },
+        {
+          "Make & Model": "Jeep Wrangler JL Unlimited 4X4 EcoDiesel",
+          "Year": 2023,
+          "Class": "US",
+          "Eng/ Cyl": "3.0/6",
+          "Trans": "A8",
+          "Fuel": "Diesel",
+          "Consumption": 10.6,
+          "$/yr": 2470,
+          "CO2 (g/km)": 255
+        },
+        {
+          "Make & Model": "Ram 1500 4X4 EcoDiesel",
+          "Year": 2023,
+          "Class": "PL",
+          "Eng/ Cyl": "3.0/6",
+          "Trans": "A8",
+          "Fuel": "Diesel",
+          "Consumption": 11.1,
+          "$/yr": 2522,
+          "CO2 (g/km)": 260
+        },
+        {
+          "Make & Model": "Jeep Gladiator 4X4 EcoDiesel",
+          "Year": 2023,
+          "Class": "PL",
+          "Eng/ Cyl": "3.0/6",
+          "Trans": "A8",
+          "Fuel": "Diesel",
+          "Consumption": 10.8,
+          "$/yr": 2548,
+          "CO2 (g/km)": 263
+        }
+      ],
+      "gas": [
+        {
+          "Make & Model": "Kia Niro FE",
+          "Year": 2023,
+          "Class": "WS",
+          "Eng/ Cyl": "1.6/4",
+          "Trans": "AM6",
+          "Fuel": "Gas",
+          "Consumption": 4.5,
+          "$/yr": 1100,
+          "CO2 (g/km)": 104
+        },
+        {
+          "Make & Model": "Hyundai Elantra Hybrid",
+          "Year": 2023,
+          "Class": "M",
+          "Eng/ Cyl": "1.6/4",
+          "Trans": "AM6",
+          "Fuel": "Gas",
+          "Consumption": 4.8,
+          "$/yr": 1175,
+          "CO2 (g/km)": 110
+        },
+        {
+          "Make & Model": "Toyota Corolla Hybrid",
+          "Year": 2023,
+          "Class": "C",
+          "Eng/ Cyl": "1.8/4",
+          "Trans": "AV",
+          "Fuel": "Gas",
+          "Consumption": 4.4,
+          "$/yr": 1175,
+          "CO2 (g/km)": 110
+        },
+        {
+          "Make & Model": "Toyota Prius AWD",
+          "Year": 2023,
+          "Class": "M",
+          "Eng/ Cyl": "2.0/4",
+          "Trans": "AV",
+          "Fuel": "Gas",
+          "Consumption": 4.8,
+          "$/yr": 1200,
+          "CO2 (g/km)": 111
+        },
+        {
+          "Make & Model": "Kia Niro",
+          "Year": 2023,
+          "Class": "WS",
+          "Eng/ Cyl": "1.6/4",
+          "Trans": "AM6",
+          "Fuel": "Gas",
+          "Consumption": 4.5,
+          "$/yr": 1200,
+          "CO2 (g/km)": 112
+        }
+      ],
+      "electric": [
+        {
+          "Make & Model": "Hyundai IONIQ 6 Long Range (18'' Wheels)",
+          "Year": 2023,
+          "Class": "M",
+          "Fuel": "Electric",
+          "Consumption": 1.5,
+          "$/yr": 447,
+          "CO2 (g/km)": 0
+        },
+        {
+          "Make & Model": "Lucid Air Pure (19\" Wheels)",
+          "Year": 2023,
+          "Class": "L",
+          "Fuel": "Electric",
+          "Consumption": 1.7,
+          "$/yr": 447,
+          "CO2 (g/km)": 0
+        },
+        {
+          "Make & Model": "Lucid Air Touring (19\" Wheels)",
+          "Year": 2023,
+          "Class": "L",
+          "Fuel": "Electric",
+          "Consumption": 1.7,
+          "$/yr": 447,
+          "CO2 (g/km)": 0
+        },
+        {
+          "Make & Model": "Hyundai IONIQ 6 Standard Range",
+          "Year": 2023,
+          "Class": "M",
+          "Fuel": "Electric",
+          "Consumption": 1.6,
+          "$/yr": 465,
+          "CO2 (g/km)": 0
+        },
+        {
+          "Make & Model": "Tesla Model 3 RWD",
+          "Year": 2023,
+          "Class": "M",
+          "Fuel": "Electric",
+          "Consumption": 1.8,
+          "$/yr": 474,
+          "CO2 (g/km)": 0
+        }
+      ]
+    }
+  }
+  
