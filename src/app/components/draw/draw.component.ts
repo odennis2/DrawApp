@@ -50,8 +50,8 @@ export class DrawComponent {
           const div = document.createElement('div');
           div.style.width = `${Math.abs(deltaX)}px`;
           div.style.height = `${Math.abs(deltaY)}px`;
-          div.style.left = `${Math.min(coords[0].x, coords[1].x)}px`;
-          div.style.top = `${Math.min(coords[0].y, coords[1].y)}px`;
+          div.style.left = `${coords[0].x - 200}px`;
+          div.style.top = `${coords[0].y}px`;
           div.style.position = "absolute";
           div.style.border = '1px solid black';
           div.style.backgroundColor = 'lightblue';
